@@ -19,7 +19,7 @@ resource "oci_core_instance" "TFInstance" {
 
   source_details {
     source_type = "bootVolume"
-    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljsbutuwmjbncndhpqxtv6nnor33ahos2nb43ijwfr6bmyqbydhnkna"
+    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljs5opwu2qekrmz4ha3tsk2wa7aza6kdte6af66wog4isswrersdq5a"
   }
 
   metadata {
