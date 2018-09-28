@@ -1,1 +1,1 @@
-/mnt/c/Users/PEKARLSS/Documents/Oracle/Work/Terraform-OCI-Create-Linux-Compute
+/mnt/c/Users/PEKARLSS/Documents/GitHub/Terraform-OCI-Demos/ol7-compute-instance-w-bootvol

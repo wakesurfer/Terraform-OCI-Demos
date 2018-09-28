@@ -12,9 +12,14 @@ resource "oci_core_instance" "TFInstance" {
     hostname_label   = "tfexampleinstance"
   }
 
+#  source_details {
+#    source_type = "image"
+#	source_id = "${var.instance_image_ocid[var.region]}"
+#  }
+
   source_details {
-    source_type = "image"
-	source_id = "${var.instance_image_ocid[var.region]}"
+    source_type = "bootVolume"
+    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljsbutuwmjbncndhpqxtv6nnor33ahos2nb43ijwfr6bmyqbydhnkna"
   }
 
   metadata {
