@@ -30,13 +30,3 @@ resource "oci_core_instance" "TFInstance" {
     create = "60m"
   }
 }
-
-resource "oci_core_image" "TFCustomImage" {
-  compartment_id = "${var.tenancy_ocid}"
-  instance_id    = "${oci_core_instance.TFInstance.id}"
-  launch_mode = "NATIVE"
-
-  timeouts {
-    create = "30m"
-  }
-}
