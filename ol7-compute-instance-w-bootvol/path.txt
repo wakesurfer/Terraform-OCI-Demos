@@ -1,0 +1,1 @@
+/mnt/c/Users/PEKARLSS/Documents/Oracle/Work/Terraform-OCI-Create-Linux-Compute
