@@ -19,8 +19,10 @@ resource "oci_core_instance" "PKInstance" {
 
   source_details {
     source_type = "bootVolume"
-    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljskcc3ctt5i2lml6m52yh6hbtzmhkvdmnjn27nijppjirfui53hywq"
+    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljsuusjiiqrgu7nkbttrs64htcv7vegp7c6t25lkfzeeubsfydz34vq"
   }
+  
+  preserve_boot_volume = true
 
   metadata {
     ssh_authorized_keys = "${var.ssh_public_key}"
