@@ -7,7 +7,7 @@ export TF_VAR_private_key_path="/mnt/c/Users/PEKARLSS/Documents/GitHub/Terraform
 
 #Region
 #export TF_VAR_region="eu-frankfurt-1"
-export TF_VAR_region="eu-ashburn-1"
+export TF_VAR_region="us-ashburn-1"
 
 #Compartment
 export TF_VAR_compartment_ocid="ocid1.compartment.oc1..aaaaaaaa4qkenymfoumszv5gs2am6rsciozq7zvlirhmfw2riwuurv45cwua"
