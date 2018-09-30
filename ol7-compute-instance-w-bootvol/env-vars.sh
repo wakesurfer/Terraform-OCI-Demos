@@ -6,7 +6,8 @@ export TF_VAR_fingerprint="1d:3f:d1:6b:44:79:e5:2d:db:10:67:88:66:87:db:c1"
 export TF_VAR_private_key_path="/mnt/c/Users/PEKARLSS/Documents/GitHub/Terraform-OCI-Demos/ol7-compute-instance-w-bootvol/.oci/oci_api_key.pem"
 
 #Region
-export TF_VAR_region="eu-frankfurt-1"
+#export TF_VAR_region="eu-frankfurt-1"
+export TF_VAR_region="eu-ashburn-1"
 
 #Compartment
 export TF_VAR_compartment_ocid="ocid1.compartment.oc1..aaaaaaaa4qkenymfoumszv5gs2am6rsciozq7zvlirhmfw2riwuurv45cwua"
