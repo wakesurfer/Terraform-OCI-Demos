@@ -1,3 +1,2 @@
-
-ol7-compute-instance-w-bootvol/.terraform/plugins/linux_amd64/lock.json
-ol7-compute-instance-w-bootvol/.terraform/plugins/linux_amd64/terraform-provider-oci_v3.2.0_x4
+ol7-compute-instance-w-bootvol/.terraform/plugins/linux_amd64/*
+ol7-compute-instance-w-bootvol/terraform.tfstate

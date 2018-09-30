@@ -19,7 +19,7 @@ resource "oci_core_instance" "PKInstance" {
 
   source_details {
     source_type = "bootVolume"
-    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljs5iv4ddqqaszi42bd4gbsnbcdfzvfrscpjbmxadni5mrqwvgyc6xq"
+    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljskcc3ctt5i2lml6m52yh6hbtzmhkvdmnjn27nijppjirfui53hywq"
   }
 
   metadata {
