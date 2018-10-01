@@ -6,6 +6,8 @@
 
 ## You need to ##
 
+
+1. Copy the .ssh folder to your home directory for ssh to be able to use your keys.
 1. Update env-vars.sh to reflect your environment
 2. To change region
   In env-vars.sh
