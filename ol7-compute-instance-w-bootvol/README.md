@@ -1,9 +1,18 @@
 
 ----
 
-# Terraform examples on Oracle Cloud Infrastructure (OCI) #
+# Terraform example for OCI #
+# Creating an Oracle Linux 7.5 compute instance #
 
-Welcome to some examples on how to use Terraform with OCI.
+## You need to ##
+
+1. Update env-vars.sh to reflect your environment
+2. To change region
+  In env-vars.sh
+    Update TF_VAR_region
+    Update TF_VAR_pk_availability_domain_name
+  In compute.tf
+    Update source_id to point to your bootVolume
 
 
 
