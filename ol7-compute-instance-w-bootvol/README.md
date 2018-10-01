@@ -5,11 +5,9 @@
 # Creating an Oracle Linux 7.5 compute instance #
 
 ## You need to ##
-
-
-1. Copy the .ssh folder to your home directory for ssh to be able to use your keys.
-1. Update env-vars.sh to reflect your environment
-2. To change region
+### Copy the .ssh folder to your home directory for ssh to be able to use your keys ###
+### Update env-vars.sh to reflect your environment ###
+### To change region ###
   In env-vars.sh
     Update TF_VAR_region
     Update TF_VAR_pk_availability_domain_name
@@ -19,6 +17,12 @@
 
 
 TODO .............
+
+
+
+
+
+
 
 
 
