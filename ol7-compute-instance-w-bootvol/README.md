@@ -8,12 +8,13 @@
 ### Copy the .ssh folder to your home directory for ssh to be able to use your keys ###
 ### Update env-vars.sh to reflect your environment ###
 ### To change region ###
+```
   In env-vars.sh
     Update TF_VAR_region
     Update TF_VAR_pk_availability_domain_name
   In compute.tf
     Update source_id to point to your bootVolume
-
+```
 
 
 TODO .............
