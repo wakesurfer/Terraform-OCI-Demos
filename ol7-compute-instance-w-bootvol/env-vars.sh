@@ -15,7 +15,5 @@ export TF_VAR_region="us-ashburn-1"
 export TF_VAR_pk_availability_domain_name="RNnO:US-ASHBURN-AD-1"
 
 ### Public/private keys used on the instance
-#export TF_VAR_ssh_public_key=$(cat /home/peter/.ssh/id_rsa.pub)
-#export TF_VAR_ssh_private_key=$(cat /home/peter/.ssh/id_rsa)
 export TF_VAR_ssh_public_key=$(cat ~/.ssh/id_rsa.pub)
 export TF_VAR_ssh_private_key=$(cat ~/.ssh/id_rsa)
