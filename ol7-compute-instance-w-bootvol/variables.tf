@@ -9,6 +9,10 @@ variable "ssh_public_key" {}
 
 variable "pk_availability_domain_name" {}
 
+variable "pk_InstanceShape" {}
+
+variable "boot_volume_id" {}
+
 # Choose an Availability Domain
 variable "AD" {
   default = "3"

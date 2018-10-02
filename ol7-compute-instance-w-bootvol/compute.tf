@@ -3,7 +3,7 @@ resource "oci_core_instance" "PKInstance" {
   availability_domain = "${var.pk_availability_domain_name}"
   compartment_id      = "${var.compartment_ocid}"
   display_name        = "PKInstance"
-  shape               = "${var.InstanceShape}"
+  shape               = "${var.pk_InstanceShape}"
 
   create_vnic_details {
     subnet_id        = "${oci_core_subnet.ExampleSubnet.id}"
@@ -19,8 +19,7 @@ resource "oci_core_instance" "PKInstance" {
 
   source_details {
     source_type = "bootVolume"
-    source_id = "ocid1.bootvolume.oc1.iad.abuwcljtuhfx7ycpglhbqy3b7vpdslkddmx6nk6pebiserjjyw4a7vsmpoka"
-#    source_id = "ocid1.bootvolume.oc1.eu-frankfurt-1.abtheljsuusjiiqrgu7nkbttrs64htcv7vegp7c6t25lkfzeeubsfydz34vq"
+    source_id = "${var.boot_volume_id}"
   }
 
   preserve_boot_volume = true
