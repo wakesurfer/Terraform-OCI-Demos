@@ -1,8 +1,8 @@
-resource "oci_core_instance" "PKInstance" {
+resource "oci_core_instance" "PetersInstance" {
   #availability_domain = "${lookup(data.oci_identity_availability_domains.ADs.availability_domains[var.AD - 1],"name")}"
   availability_domain = "${var.pk_availability_domain_name}"
   compartment_id      = "${var.compartment_ocid}"
-  display_name        = "PKInstance"
+  display_name        = "PetersInstance"
   shape               = "${var.pk_InstanceShape}"
 
   create_vnic_details {
